@@ -2,6 +2,7 @@ package main
 
 import (
     "fmt"
+    "strings"
 )
 
 func main(){
@@ -9,4 +10,5 @@ func main(){
     var name string
     fmt.Scanln(&name)
     fmt.Printf("Hi, %s!. /n I'm go! /n ",name)
+    name = strings.TrimSpace(name)
 }
