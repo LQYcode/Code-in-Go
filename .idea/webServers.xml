@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c28df99-9e4d-4f33-9b99-406d1c1def5b" name="119.27.162.145tx">
+        <fileTransfer rootFolder="/home/ubuntu/codes/gocoding" accessType="SFTP" host="119.27.162.145" port="22" sshConfigId="991aa580-0a50-4afb-b6e5-cf2c3d6c5203" sshConfig="ubuntu@119.27.162.145:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
